@@ -10,7 +10,7 @@
         <div class="divTitre">
             <img id="imgBandeau" src="libImages/logo iut 2018.jpg">
             <h1>Boutique de CDs</h1>
-            <p id="connexion">Se connecter</p>
+            <p id="connexion">Se Connecter</p>
         </div>
 
 		<?php
@@ -18,20 +18,27 @@
 
 			foreach($lesAlbums->album as $cd)
 			{
+				$titre = $cd->titre;
+				$auteur = $cd->auteur;
+				$genre = $cd->genre;
+				$prix = $cd->prix;
+				$pochette = $cd->pochette;
+
 				echo
 				"<div class='divListeCD'>",
 					"<div class='divOffreCD'>",
 						"<div class='divImgOffreCD'>",
-							"<img class='imgOffreCD' src='libImages/$cd->pochette'>",
+							"<img class='imgOffreCD' src='libImages/$pochette'>",
 						"</div>",
 						"<div class='divInfoOffreCD'>",
-							"<p class='titreOffreCD'><strong>Titre :</strong> $cd->titre</p>",
-							"<p class='auteurOffreCD'><strong>Auteur :</strong> $cd->auteur</p>",
-							"<p class='genreOffreCD'><strong>Genre :</strong> $cd->genre</p>",
+							"<p class='titreOffreCD'><strong>Titre :</strong> $titre</p>",
+							"<p class='auteurOffreCD'><strong>Auteur :</strong> $auteur</p>",
+							"<p class='genreOffreCD'><strong>Genre :</strong> $genre</p>",
 							"<div class='divPrixOffreCD'>",
-								"<p class='prixOffreCD'>$cd->prix €</p>",
-								"<form action='ficheCD.php' method='GET'>",
-									"<input type='submit' value='Détail' class='btnFicheCD'>",
+								"<p class='prixOffreCD'>$prix €</p>",
+								"<form action='detailCD.php' method='POST'>",
+									"<input type='submit' value='Détail' class='btnFicheCD'/>",
+									"<input type='hidden' value='$titre;$auteur;$genre;$prix;$pochette' name='cdChoisi'/>",
 								"</form>",
 							"</div>",
 						"</div>",
