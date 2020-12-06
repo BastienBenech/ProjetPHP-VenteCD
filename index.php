@@ -10,7 +10,7 @@
         <div class="divTitre">
             <img id="imgBandeau" src="libImages/logo iut 2018.jpg">
             <h1>Boutique de CDs</h1>
-            <p>par Bastien Benech</p>
+            <p id="connexion">Se connecter</p>
         </div>
 
 		<?php
