@@ -1,7 +1,3 @@
-* {
-	margin-inline: 10px;
-}
-
 body {
 	background-color: rgb(201, 201, 201);
 }
@@ -26,18 +22,55 @@ h1 {
 	border: 6px ridge #7D7D7D;
 }
 
+.divListeCD {
+	margin: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
 .divOffreCD {
-	display: inline-block;
+	display: inline-flex;
+	border: 2px solid rgb(43, 43, 43);
+	background-color: rgb(231, 231, 231);
+	margin: 10px;
+	width: 100%;
+}
+
+.divImgOffreCD {
+	height: 396px;
+}
+
+.imgOffreCD {
+	width: 396px;
+	height: 396px;
 }
 
 .divInfoOffreCD {
+	font-size: 32px;
+	margin: 10px;
+	width: 100%;
+}
 
+.divInfoOffreCD {
+	position: relative;
 }
 
 .titreOffreCD, .auteurOffreCD, .genreOffreCD {
+	position: relative;
+}
 
+.divPrixOffreCD {
+	font-weight: bold;
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
 }
 
 .prixOffreCD {
-	
+	margin-bottom: 0px;
+}
+
+.btnFicheCD {
+	width: 100%;
+	font-size: 20px;
 }
