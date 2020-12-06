@@ -1,8 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<album>
-	<titre>JVLIVS</titre>
-	<auteur>SCH</auteur>
-	<genre>RAP / Hip-Hop français</genre>
-	<prix>18,00</prix>
-	<pochette>JVLIVS.jpg</pochette>
-</album>
+<lesAlbums>
+	<album>
+		<titre>JVLIVS</titre>
+		<auteur>SCH</auteur>
+		<genre>RAP / Hip-Hop français</genre>
+		<prix>18,00</prix>
+		<pochette>JVLIVS.jpg</pochette>
+	</album>
+	<album>
+		<titre>Attaque II</titre>
+		<auteur>Captain Roshi</auteur>
+		<genre>RAP / Hip-Hop français</genre>
+		<prix>19,99</prix>
+		<pochette>Attaque-II.png</pochette>
+	</album>
+	<album>
+		<titre>Paradis Assassiné</titre>
+		<auteur>Lino</auteur>
+		<genre>RAP / Hip-Hop français</genre>
+		<prix>17,50</prix>
+		<pochette>paradisAssassine.jpg</pochette>
+	</album>
+	<album>
+		<titre>Passage Flouté</titre>
+		<auteur>TSR Crew</auteur>
+		<genre>RAP / Hip-Hop français</genre>
+		<prix>14,50</prix>
+		<pochette>PassageFloute-TSR.jpg</pochette>
+	</album>
+</lesAlbums>
