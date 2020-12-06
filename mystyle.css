@@ -1,0 +1,43 @@
+* {
+	margin-inline: 10px;
+}
+
+body {
+	background-color: rgb(201, 201, 201);
+}
+
+#imgBandeau {
+	margin: 5px;
+	height: 100px;
+	border: 2px solid rgb(22, 22, 22);
+}
+
+h1 {
+	font-size: 50px;
+	text-shadow: 3px 5px 2px #474747;
+}
+
+.divTitre {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	background-color: #2053a5;
+	border: 6px ridge #7D7D7D;
+}
+
+.divOffreCD {
+	display: inline-block;
+}
+
+.divInfoOffreCD {
+
+}
+
+.titreOffreCD, .auteurOffreCD, .genreOffreCD {
+
+}
+
+.prixOffreCD {
+	
+}
