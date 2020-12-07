@@ -14,36 +14,7 @@
 				<h2>Votre panier :</h2>
 			</div>
             <p id="connexion">Se Connecter</p>
-        </div>
-
-		<?php
-			// $cd = explode(';', $_POST['cdChoisi']);
-
-			// $titre = $cd[0];
-			// $auteur = $cd[1];
-			// $genre = $cd[2];
-			// $prix = $cd[3];
-			// $pochette = $cd[4];
-
-			// echo
-			// "<div class='divDetailCD'>",
-			// 	"<div class='divImgDetailCD'>",
-			// 		"<img class='imgDetailCD' src='libImages/$pochette'>",
-			// 	"</div>",
-			// 	"<div class='divInfoDetailCD'>",
-			// 		"<p class='titreDetailCD'><strong>Titre :</strong> $titre</p>",
-			// 		"<p class='auteurDetailCD'><strong>Auteur :</strong> $auteur</p>",
-			// 		"<p class='genreDetailCD'><strong>Genre :</strong> $genre</p>",
-			// 		"<div class='divPrixDetailCD'>",
-			// 			"<p class='prixDetailCD'>$prix €</p>",
-			// 			"<form action='acheterCD.php' method='POST'>",
-			// 				"<input type='submit' value='Ajouter au panier' class='btnAcheterCD'/>",
-			// 				// "<input type='hidden' value='$titre;$auteur;$genre;$prix;$pochette' name='cdChoisi'/>",
-			// 			"</form>",
-			// 		"</div>",
-			// 	"</div>",
-			// "</div>";
-		?>
+		</div>
 		
 	</BODY>
 </html>

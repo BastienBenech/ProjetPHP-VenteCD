@@ -14,7 +14,11 @@
 				<h2>Liste des albums :</h2>
 			</div>
             <p id="connexion">Se Connecter</p>
-        </div>
+		</div>
+		
+		<div class="divAjoutCD">
+			<a id="btnAjoutCD" href="ajoutCD.php">Enregistrer un nouveau CD</a>
+		</div>
 
 		<?php
 			$lesAlbums = simplexml_load_file('donneesCD.xml');

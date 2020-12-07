@@ -41,6 +41,17 @@ h2 {
 }
 
 
+/* btn d'ajout CD */
+
+.divAjoutCD {
+	margin: 10px;
+}
+
+#btnAjoutCD {
+	font-size: 20px;
+}
+
+
 /* index.php */
 
 .divListeCD {
@@ -147,4 +158,20 @@ h2 {
 .btnAcheterCD {
 	width: 100%;
 	font-size: 30px;
+}
+
+
+/* ajoutCD.php */
+
+.divChamps {
+	margin: 20px;
+}
+
+.divChamps > label {	
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.divChamps > input {	
+	font-size: 20px;
 }

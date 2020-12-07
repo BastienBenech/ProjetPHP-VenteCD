@@ -37,7 +37,6 @@
 						"<p class='prixDetailCD'>$prix €</p>",
 						"<form action='acheterCD.php' method='POST'>",
 							"<input type='submit' value='Ajouter au panier' class='btnAcheterCD'/>",
-							"<input type='hidden' value='$titre;$auteur;$genre;$prix;$pochette' name='cdChoisi'/>",
 						"</form>",
 					"</div>",
 				"</div>",
