@@ -9,7 +9,10 @@
 
         <div class="divTitre">
             <img id="imgBandeau" src="libImages/logo iut 2018.jpg">
-            <h1>Boutique de CDs</h1>
+            <div id="divTitrePage">
+				<h1>Boutique de CDs</h1>
+				<h2>Liste des albums :</h2>
+			</div>
             <p id="connexion">Se Connecter</p>
         </div>
 

@@ -8,9 +8,21 @@ body {
 	border: 2px solid rgb(22, 22, 22);
 }
 
+#divTitrePage {
+	text-align: center;
+	text-shadow: 3px 5px 2px #474747;
+}
+
 h1 {
 	font-size: 50px;
-	text-shadow: 3px 5px 2px #474747;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #connexion {
