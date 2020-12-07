@@ -6,13 +6,6 @@
         <title>Projet PHP</title>
     </HEAD>
     <BODY>
-
-        <div class="divTitre">
-            <img id="imgBandeau" src="libImages/logo iut 2018.jpg">
-            <h1>Boutique de CDs</h1>
-            <a id="connexion">Se Connecter</a>
-        </div>
-
 		<?php
 			$cd = explode(';', $_POST['cdChoisi']);
 
@@ -23,6 +16,15 @@
 			$pochette = $cd[4];
 
 			echo
+			"<div class='divTitre'>",
+				"<img id='imgBandeau' src='libImages/logo iut 2018.jpg'>",
+				"<div id='divTitrePage'>",
+					"<h1>Boutique de CDs</h1>",
+					"<h2>$titre de $auteur :</h2>",
+				"</div>",
+				"<a id='connexion'>Se Connecter</a>",
+			"</div>",
+
 			"<div class='divDetailCD'>",
 				"<div class='divImgDetailCD'>",
 					"<img class='imgDetailCD' src='libImages/$pochette'>",
@@ -35,7 +37,7 @@
 						"<p class='prixDetailCD'>$prix €</p>",
 						"<form action='acheterCD.php' method='POST'>",
 							"<input type='submit' value='Ajouter au panier' class='btnAcheterCD'/>",
-							// "<input type='hidden' value='$titre;$auteur;$genre;$prix;$pochette' name='cdChoisi'/>",
+							"<input type='hidden' value='$titre;$auteur;$genre;$prix;$pochette' name='cdChoisi'/>",
 						"</form>",
 					"</div>",
 				"</div>",
