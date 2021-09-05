@@ -3,15 +3,15 @@
     <HEAD>
         <link rel="stylesheet" type="text/css" href="mystyle.css" />
         <meta charset="utf-8">
-        <title>Projet PHP</title>
+        <title>TourneeComite</title>
     </HEAD>
     <BODY>
 
         <div class="divTitre">
             <img id="imgBandeau" src="libImages/logo iut 2018.jpg">
             <div id="divTitrePage">
-				<h1>Boutique de CDs</h1>
-				<h2>Liste des albums :</h2>
+				<h1>Comité d'Uzos</h1>
+				<h2>Liste des tournées :</h2>
 			</div>
             <p id="connexion">Se Connecter</p>
 		</div>
